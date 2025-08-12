@@ -41,18 +41,17 @@ header,.card-section,.latest-deal-section,.fruit-lover-section{
 .btn-primary:hover{
     background-color: rgb(101, 7, 7) ;
 }
+.btn-primary2{
+    width:150px;
+    height: 20px;
+    background-color: rgb(2, 75, 61);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-size: 600;
+    cursor: pointer;
+    
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 body{
@@ -93,7 +92,8 @@ header .img-container{
 }
 /* banner */
 .banner{
-    padding-top: 106px;
+    /* padding-top: 106px; */
+    padding-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,6 +270,10 @@ header .img-container{
 .deal-section-grid-container-left{
     display: grid;
     gap: 20px;
+
+}
+.deal-section-grid-container-left :hover{
+   background-color: brown;
 }
 .deal-section-grid-container .img-text {
     position: relative;
