@@ -305,5 +305,182 @@ header .img-container{
      font-size: 1.8rem;
 }
 
+.join-section-content{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(101, 7, 7);
+
+}
+
+
+
+/*footer section*/
+
+.footer-Section{
+max-width: 1140px;
+margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+   
+}
+.footer-Section .icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-Section .content{
+    max-width: 359px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgb(101, 7, 7) ;
+}
+.footer-Section .ul-container {
+    display: flex;
+    gap: 110px;
+    
+}
+.footer-Section .ul-container li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+.footer-Section .ul-container a{
+    text-decoration: none;
+    color: rgb(4, 71, 46);
+    
+}
+
+
+/*mobile responsive*/
+@media screen and (max-width:576px) {
+    .cart{
+        margin-top: 25px;
+        font-size: 1.2rem;
+    }
+    li.hide{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .banner h1{
+    font-size: 1.7rem;
+}
+.banner p{
+    font-size: 0.9rem;
+}
+.banner-content{
+    padding: 4px 16px 4px 16px;
+}
+.card-section .cards h3{
+    font-size: 1rem;
+  
+}
+.card-section .cards h2{
+font-size: 1rem;
+
+
+}
+.card-section-title h1{
+    font-size: 1.5rem;
+}
+
+.card-section{
+    padding: 20px;
+}
+.card-section .cards{
+ grid-template-columns: repeat(2,1fr);
+ width: 100%;
+ 
+
+}
+.card-section .card{
+    width: 100%;
+    
+}
+.card-section .cards button{
+    width: 100%;
+
+}
+.btn-primary:hover{
+    background-color: rgb(240, 128, 63);
+}
+.Plants-Lover-Section{
+   padding: 20px;
+}
+.Plants-Lover-Section-verifcation-logo{
+    display: none;
+}
+.Plants-Lover-Section-content{
+    flex-direction: column;
+    margin: 0px;
+    gap: 0px;
+}
+.Plants-Lover-Section-content ul{
+   padding: 30px;
+
+}
+.Plants-Lover-Section-content h1{
+    font-size: 1.7rem;
+}
+.latest-deal-section .title{
+    margin: 20px;
+
+}
+.latest-deal-section .title h1{
+    font-size: 2.125rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.latest-deal-section .title p{
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+}
+.deal-section-grid-container{
+    grid-template-columns: 1fr;
+    padding: 15px 10px;
+    gap: 20px;
+}
+.deal-section-grid-container-left{
+    gap: 20px;
+}
+.deal-section-grid-container-right .text{
+    
+    font-size: 0.9rem;
+}
+.deal-section-grid-container-right .text a{
+    font-size: 1.25rem;
+}
+.join-section-content{
+    padding: 110px 36px 65px;
+    margin: 0px;
+}
+.join-section-content h1{
+    font-size: 1.5rem;
+}
+.join-section-content input[type="email"]{
+    width: 100%;
+    margin-top: 20px;
+}
+.join-section-content label button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer-Section{
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    
+}
+.footer-Section .ul-container{
+    flex-direction: column;
+    gap: 10px;
+}
+}
+
+
 
 
